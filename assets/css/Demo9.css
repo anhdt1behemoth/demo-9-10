@@ -175,7 +175,7 @@ body {
 }
 
 .content-img {
-    width: 70%;
+    width: 100%;
     height: 237px;
     display: flex;
     flex-direction: row;
@@ -188,6 +188,7 @@ body {
     position: relative;
 
 }
+
 .img-working {
     width: 70%;
 }
@@ -200,7 +201,7 @@ body {
 }
 
 .content_title {
-    width: 45%;
+    width: 50%;
     height: 237px;
     padding-left: 30px;
     gap: 10px;
@@ -221,4 +222,110 @@ body {
 
 .working {
     position: absolute;
+}
+
+.working-paradigm {
+    margin-top: 30px;
+    width: 100%;
+    height: 427px;
+}
+
+.trends-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trends-grid {
+    width: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(94, 98, 120, 0.04);
+    border-radius: 18px;
+    background: #FFFFFF;
+    padding: 23px 30px;
+}
+
+.icon-Trend {
+    width: 20px;
+    height: 20px;
+    background: #B5B5C3;
+    text-align: center;
+    color: #7E8299;
+    opacity: 0.3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vector {
+    width: 100%;
+}
+
+.vector-img {
+    margin-top: 40px;
+}
+
+.top-par {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icons_top {
+    width: 50px;
+    height: 50px;
+    background: #F3F6F9;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons_top i {
+    font-size: 30px;
+    color: red;
+}
+
+.trends-price {
+    padding: 5px 4px;
+    background: #F3F6F9;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trends-price .price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #7E8299;
+}
+
+/*trends font*/
+
+.trends-title .trends-title_main {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3F4254;
+}
+
+.trends-title .trends-title_sub {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #B5B5C3;
+}
+
+.trends {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
