@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,12 +9,17 @@
 
 body {
     width: 100%;
+    height: 100vh;
     background: linear-gradient(80.18deg, rgba(3, 0, 125, 0.98) 0%, rgba(0, 93, 180, 0.98) 100%),
         url(../images/imagesStore.png) no-repeat;
+    background-size: cover;
 }
 
 .container_lout {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .heading {
@@ -21,7 +28,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 147px ;
+    padding-top: 147px;
 }
 
 .heading_logo {
@@ -43,26 +50,197 @@ body {
 }
 
 .item {
-    background-color: red;
     border: 1px solid grey;
     border-radius: 12px;
 }
-.body_content{
+
+.body_content {
     display: grid;
-    grid-template-columns: 230px 230px 300px ;
+    grid-template-columns: 230px 230px 300px;
     grid-template-rows: 200px 200px 440px;
     margin-top: 60px;
     grid-gap: 20px;
 }
+
 .content_1 {
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F9666E;
 }
+
+.content_1 img {
+    padding-bottom: 20px;
+}
+
 .content_2 {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #35D29A;
 }
+
+.content_2 img {
+    padding-bottom: 20px;
+}
+
 .content_3 {
+    height: 422px;
+    display: flex;
+    flex-direction: column;
+    padding: 26px;
+    background: #A838FF;
+}
+
+.text_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF
+}
+
+.text_content {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #EED8FF;
+}
+
+
+.text_tool {
+    margin: 0 40px;
 }
 
 .content_4 {
     grid-column: 1/3;
+}
+
+.prj-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF
+}
+
+.text_1 {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 4px;
+}
+
+.btn_learn-cl {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn-learn {
+    margin: 14px 40px;
+    padding: 6px;
+    background: #B75CFF;
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.learn_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.content_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: #D5D83D;
+
+}
+
+.shopping_images {
+    margin-bottom: 20px;
+}
+
+.shopping_images img {
+    height: 198px;
+}
+
+.shopping_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text_guide {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #3F4254;
+}
+
+.guide_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #3F4254;
+}
+
+.btn_shopping {
+    padding: 6px;
+    background: #EBEE51;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #5E6278;
+}
+
+.container_right {
+    width: 30%;
+    height: 1100px;
+    margin: 50px;
+    background: #130061;
+    opacity: 0.3;
+    border-radius: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+    gap: 20px;
+}
+
+.footer_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #869FCC;
 }
