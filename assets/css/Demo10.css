@@ -306,7 +306,9 @@ body {
     position: absolute;
     margin: 50px 23px;
 }
-
+.img-working {
+    border-radius: 18px;
+}
 .down {
     top: 100px;
 }
