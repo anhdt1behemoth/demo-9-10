@@ -214,7 +214,6 @@ body {
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     height: 1100px;
     margin: 50px;
     background: #130061;
@@ -241,14 +240,31 @@ body {
 }
 
 
-.border_left::before {
-    content: "";
-    width: 1px;
-    height: 700px;
-    margin: 40px;
-    border: 1px dashed #869FCC;
+.border_img {
+    width: 36px;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    background: #F3F6F9 !important;
+    opacity: 0.2;
+    justify-content: center;
+    align-items: center;
+}
+.table_text{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.border-update::before {
+    content: " ";
+    width: 2px;
+    margin-top: 35px;
     position: absolute;
-    top: 150px;
+    margin-left: 8px;
+    border-radius: 4px;
+    border: 1px dashed #FFFFFF;
 
 }
 
@@ -278,64 +294,6 @@ body {
     color: #FFFFFF;
 }
 
-.border_library img {
-    width: 36px;
-    height: 36px;
-    background: #EFF2F5;
-    border-radius: 50%;
-    position: absolute;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.2;
-
-}
-
-.border_library {
-    width: 40px;
-    height: 40px;
-    background: #130061;
-}
-
-
-.comp_update {
-    display: flex;
-    flex-direction: row;
-    gap: 14px;
-    position: absolute;
-    margin: 50px 23px;
-}
-.img-working {
-    border-radius: 18px;
-}
-.down {
-    top: 100px;
-}
-
-.down_1 {
-    top: 230px;
-}
-
-.down_2 {
-    top: 300px;
-}
-
-.down_3 {
-    top: 520px;
-}
-
-.down_4 {
-    top: 600px;
-}
-
-.down_5 {
-    top: 650px;
-}
-
-.down_6 {
-    top: 800px;
-}
 
 .status_text {
     font-family: 'Roboto';
@@ -371,6 +329,11 @@ body {
     border: 1px rgba(255, 255, 255, 0.2) solid;
     border-radius: 6px;
 }
+.update_table {
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+}
 
 .meeting_table {
     display: flex;
@@ -402,8 +365,8 @@ body {
 .btn_update {
     display: flex;
     justify-content: center;
+    margin-top: 150px;
 }
-
 .btn_view {
     background: rgba(255, 255, 255, 0.2);
     padding: 10px;
@@ -417,4 +380,30 @@ body {
     color: #FFFFFF;
     line-height: 15px;
     text-align: center;
+}
+
+/* table edit */
+
+.table_edit {
+    margin-top: 37px;
+}
+
+.icon_library::before {
+    height: 107px;
+}
+
+.icon_user::before {
+    height: 31px;
+}
+
+.icon_speak::before{
+    height: 174px;
+}
+
+.icon_note::before {
+    height: 28px;
+}
+
+.table_end {
+    margin-top: 20px;
 }
