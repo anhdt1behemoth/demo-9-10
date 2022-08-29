@@ -370,9 +370,8 @@ body {
 }
 
 .update_table {
-
     flex-direction: column;
-    margin-top: 38px;
+    margin-top: 18px;
 }
 
 .meeting_table {
@@ -408,7 +407,7 @@ body {
     height: 50px;
     bottom: 50px;
     position: fixed;
-    padding: 12px 0 50px;
+    padding: 5px 0 7px;
     background: #130061;
     
 }
