@@ -10,6 +10,7 @@
 body {
     width: 100%;
     height: 100vh;
+    min-width: 500px;
     background: linear-gradient(80.18deg, rgba(3, 0, 125, 0.98) 0%, rgba(0, 93, 180, 0.98) 100%),
         url(../images/imagesStore.png) no-repeat;
 }

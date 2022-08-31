@@ -16,6 +16,7 @@ body {
     flex-direction: row;
     font-family: 'Poppins';
     justify-content: space-between;
+    min-width: 500px;
 }
 
 .main {
@@ -41,10 +42,11 @@ body {
 }
 
 .sidebar .logo_content .logo {
-    height: 50px;
+    height: 100px;
     width: 100%;
-    text-align: center;
-    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
 }
 
 .sidebar .logo_content .logo img {
@@ -110,6 +112,9 @@ body {
     background: var(--color--primary);
 }
 
+.btn_menu {
+    display: none;
+}
 /*   ----------------  */
 .item_icons {
     width: 42px;
@@ -255,6 +260,7 @@ body {
 }
 
 .img-working {
+    width: 90%;
     border-radius: 18px;
     background: var(--color--primary);
 }
@@ -357,6 +363,12 @@ body {
     justify-content: center;
     align-items: center;
 
+}
+
+.item-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .icons_top i {
@@ -799,8 +811,9 @@ body {
 }
 
 .arrivals_alert {
-    width: 74px;
+    width: 86px;
     height: 26px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -895,6 +908,7 @@ body {
         width: 100%;
         padding: 0 20px;
     }
+
     .trends {
         width: 100%;
         flex-direction: column;
@@ -948,14 +962,64 @@ body {
 
     .heading {
         width: 100%;
+        margin-top: 40px;
     }
 
     .side_nav {
-        display: none;
+        width: 0px;
     }
 
     .sidebar {
         width: 100%;
         height: 50px;
+    }
+
+    .side-menu {
+        display: none;
+    }
+
+
+    .exit{
+        display: none;
+    }
+
+    .btn_menu{
+        display: inline-block;
+        padding: 10px;
+        font-size: 24px;
+    }
+
+    .logo_content {
+        display: inline;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .item-icons {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .sidebar .logo_content .logo {
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+
+    .search_style {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    section.heading-menu {
+        min-height: 250px;
+    }
+
+    .arrivals_ads {
+        gap: 30px;
+    }
+
+    .arrivals_over {
+        overflow: auto;
     }
 }
