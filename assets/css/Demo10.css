@@ -312,6 +312,7 @@ body {
 .update_scroll {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -546,6 +547,11 @@ body {
         width: 90%;
         margin-left: 20px;
     }
+    .container_right.active{
+        width: 100%;
+        left: 53%;
+    }
+
 }
 
 @media screen and (max-width: 38.759em) {
@@ -566,5 +572,11 @@ body {
     .text_tool{ 
         margin: 20px 120px;
     }
+
+    .container_right.active{
+        width: 100%;
+        left: 2%;
+    }
+
 
 }
